@@ -2,7 +2,6 @@ body{background-color: #F9F9F5}
 hr{border: 1px #999 dashed;}
 a:hover{text-decoration: none;}
 .top-menu,.menu{
-	height: 35px;
 	float: right;
 	margin-top: 20px;
 }
@@ -18,11 +17,7 @@ a:hover{text-decoration: none;}
 }
 .clear{clear: both;}
 .content{text-align: center;width: 100%;}
-.content h1{
-	font-size: 110px;
-	color:#000;
-    line-height: 120px;
-}
+
 .circle{
 	border-radius: 50%;
 	background-color: #646462;
@@ -39,9 +34,7 @@ a:hover{text-decoration: none;}
 .Markdown_language img{
 	width: 100%
 }
-.padding_Top_Left{
-	padding: 30px 50px;
-}
+
 
 .TXT_center{
 	text-align: center;
@@ -58,6 +51,7 @@ footer .b{font-weight: bold;}
 footer h1,p{color: rgba(255,255,255,.9);}
 footer .P_center{
 	font-size: 14px;
+	color: #ccc;
 }
 .circle_ico{
 	width: 130px;
@@ -85,3 +79,7 @@ footer .btn{
 footer .margin{
 	margin: 10px;
 }
+.footer-margin .col-xs-12{
+	margin-top: 13px;
+}
+.no-padding{padding: 0}
